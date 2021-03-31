@@ -1,0 +1,62 @@
+@import url('normalize.css');
+
+*, *::after, *::before {
+    position: relative;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    min-height: 100%;
+    font-size: 62.5%;
+    display: grid;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a, button {
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input[type=submit], input[type=reset], input[type=button] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+/*====================================================================*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+div:nth-child(2n) {
+    background-color: aquamarine;
+}
